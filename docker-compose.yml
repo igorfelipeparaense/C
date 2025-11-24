@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  c:
+    image: gcc
+    container_name: 'curso_c'
+    volumes:
+      - ./curso_c:/curso_c
+    tty: true
