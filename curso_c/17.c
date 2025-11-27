@@ -20,5 +20,10 @@ int main() {
         printf("Opção desconhecida\n");
     }
 
+    // Gera um alfabeto
+    for (int i = 97; i <= 122; i++) {
+        printf("%c\n", i);
+    }
+
     return 0;
 }
