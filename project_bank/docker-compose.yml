@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  bank_c:
+    image: gcc
+    container_name: 'bank_c'
+    volumes:
+      - ./bank_c:/bank_c
+    tty: true

@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-  c:
+  game_c:
     image: gcc
-    container_name: 'curso_c'
+    container_name: 'game_c'
     volumes:
-      - ./curso_c:/curso_c
+      - ./game_c:/game_c
     tty: true

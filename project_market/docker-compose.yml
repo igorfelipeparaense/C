@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  market_c:
+    image: gcc
+    container_name: 'market_c'
+    volumes:
+      - ./market_c:/market_c
+    tty: true
